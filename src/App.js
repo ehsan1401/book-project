@@ -6,6 +6,7 @@ import NavigationBar from './Components/NavBar';
 import Another from './Components/Another';
 import AboutUS from './Components/AboutUs';
 import NotFounded from './Components/404';
+import SignIn from './Components/Sign-in-page';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path='/home' element={<HomePage />} />
           <Route path='/another' element={<Another />} />
           <Route path='/aboutUs' element={<AboutUS />} />
+          <Route path='/SignIn' element={<SignIn />} />
+
           <Route path='*' element={<NotFounded />} />
         </Routes>
         <Footer />
