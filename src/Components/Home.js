@@ -9,7 +9,7 @@ const HomePage = () => {
                 </div>
 
                 <div className="genre bg-gray-200 px-24 py-5 text-left">
-                    <h1 className='pt-3 text-3xl font-semibold'>Geners</h1>
+                    <h1 className='pt-3 text-3xl font-semibold'>Genres</h1>
                     <Link to={"*"} className='float-right p-3 my-3 font-medium hover:underline' >See more</Link>
                     <div className="genre-items grid grid-flow-col w-full h-auto mb-5 gap-5">
 

@@ -20,7 +20,7 @@ const SignIn = () => {
 
         if(data_info.Password === data_info.repassword){
             //login side
-            navigate("/");
+            navigate("/Login");
             // alert("Sign in successful");
         }else{
             repeateError.style.display="block";
@@ -55,13 +55,13 @@ const SignIn = () => {
                             <h1 className='text-3xl font-bold'>Sign in</h1>
                             <form className=' mt-5 w-full p-5' onSubmit={handleSubmit}>
 
-                                <input type="email" placeholder='Email' name='email'  className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
+                                <input type="email" placeholder='Email' name='email' required  className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Username' name='username'  className='my-2 p-2 focus:outline-none shadow-md w-full'/><br />
+                                <input type="text" placeholder='Username' name='username' required  className='my-2 p-2 focus:outline-none shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Password' name='Password' className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
+                                <input type="text" placeholder='Password' name='Password' required className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Repeate Password' name='repassword'  className='my-2 p-2 focus:outline-none w-full shadow-md '/><br />
+                                <input type="text" placeholder='Repeate Password' name='repassword' required  className='my-2 p-2 focus:outline-none w-full shadow-md '/><br />
 
                                 <input type="submit" value={"Sign in"} className='my-2 p-2 focus:outline-none shadow-md w-full bg-purple-900 text-white font-semibold hover:bg-indigo-600 transition duration-500 rounded-2xl '/> <br />
 

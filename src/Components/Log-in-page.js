@@ -4,11 +4,14 @@ import {useNavigate} from "react-router-dom"
 
 
 const SignIn = () => {
+    const navigate = useNavigate();
     const handleSubmit = (e)=> {
 
         e.preventDefault();
         const data = new FormData(e.target);
         const data_info = Object.fromEntries(data.entries());
+        navigate("/dashboard");
+        
     }
 
     return ( 
@@ -21,9 +24,9 @@ const SignIn = () => {
                             <h1 className='text-3xl font-bold'>Log in</h1>
                             <form className=' mt-5 w-full p-5 text-left' onSubmit={handleSubmit}>
 
-                                <input type="text" placeholder='Username' name='username'  className='my-3 p-2 focus:outline-none shadow-md w-full'/><br />
+                                <input type="text" placeholder='Username' name='username' required  className='my-3 p-2 focus:outline-none shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Password' name='Password' className='my-3 p-2 focus:outline-none  shadow-md w-full'/><br />
+                                <input type="text" placeholder='Password' name='Password' required className='my-3 p-2 focus:outline-none  shadow-md w-full'/><br />
                                
                                 <input type="checkbox" name='remamber' className='font-thin' />
                                 <label htmlFor="remamber" className='font-thin'> remamber me on this device.</label>
