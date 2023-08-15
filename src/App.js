@@ -8,6 +8,7 @@ import NotFounded from './Components/404';
 import SignIn from './Components/Sign-in-page';
 import LogIn from './Components/Log-in-page';
 import UserDashboadrd from './Components/dashboard';
+import BookPgage from './Components/book';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           <Route path='/SignIn' element={<SignIn />} />
           <Route path='/Login' element={<LogIn />} />
           <Route path='/dashboard' element={<UserDashboadrd />} />
+          <Route path='/book' element={<BookPgage />} />
+          <Route path={'/book/:id'} element={<BookPgage />} />
+
 
 
           <Route path='*' element={<NotFounded />} />
