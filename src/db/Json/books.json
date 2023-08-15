@@ -7,7 +7,7 @@
         "price":"Free",
         "year":"1945",
         "age":"+13",
-        "imageURl":"./images/Books-image/Animal-Farm/Animal-Farm.jpg"
+        "imageURl":"../images/Books-image/Animal-Farm/Animal-Farm.jpg"
     },
     {
         "id":2,
@@ -17,7 +17,7 @@
         "price":"Free",
         "year":"1813",
         "age":"+12",
-        "imageURl":"./images/Books-image/Pride-and-Prejudice/Pride-and-Prejudice.jpg"
+        "imageURl":"../images/Books-image/Pride-and-Prejudice/Pride-and-Prejudice.jpg"
 
     },
     {
@@ -28,7 +28,7 @@
         "price":"Free",
         "year":"2006",
         "age":"PG-13",
-        "imageURl":"./images/Books-image/The-Book-Thief/The-Book-Thief.jpg"
+        "imageURl":"../images/Books-image/The-Book-Thief/The-Book-Thief.jpg"
     },
     {
         "id":4,
@@ -38,7 +38,7 @@
         "price":"Free",
         "year":"2012",
         "age":"+13",
-        "imageURl":"./images/Books-image/The-Fault-in-Our-Stars/The-Fault-in-Our-Stars.jpg"
+        "imageURl":"../images/Books-image/The-Fault-in-Our-Stars/The-Fault-in-Our-Stars.jpg"
     },
     {
         "id":5,
@@ -48,7 +48,7 @@
         "price":"Free",
         "year":"2008",
         "age":"+12",
-        "imageURl":"./images/Books-image/The-Hunger-Games/The-Hunger-Games.jpg"
+        "imageURl":"../images/Books-image/The-Hunger-Games/The-Hunger-Games.jpg"
     },
     {
         "id":6,
@@ -58,96 +58,6 @@
         "price":"Free",
         "year":"1960",
         "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":7,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":8,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":9,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":10,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":11,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":12,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":13,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":14,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
-    },
-    {
-        "id":15,
-        "name":"To Kill a Mockingbird",
-        "info":"To Kill a Mockingbird is a novel by the American author Harper Lee. It was published in 1960 and won the Pulitzer Prize in 1961. It is a story of a childhood in a Southern town and the crisis of conscience that rocked it",
-        "author":"Harper Lee",
-        "price":"Free",
-        "year":"1960",
-        "age":"+12",
-        "imageURl":"./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
+        "imageURl":"../images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg"
     }
 ]

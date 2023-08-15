@@ -120,7 +120,8 @@ const HomePage = () => {
                                 <img src={item.imageURl} alt="book" className="w-96 md:h-80 h-auto rounded-lg"/>
                             </div>
                         </Link>
-                        </div>
+                    </div>
+                        // tip1 - image address format:
                         // ./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg
 
                         );
