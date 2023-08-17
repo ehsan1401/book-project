@@ -1,14 +1,25 @@
 import {Link} from 'react-router-dom'
 import BookPgage from './book';
 import data from '../db/Json/books.json';
+import visit from '../db/Json/visitpage.json'
 import '../App.css';
+import { useEffect, useState } from 'react';
 
 const HomePage = () => {
+
+   
+
+   
+    
+
+
+    
+
     return ( 
         <div className="homepage h-full">
             <div className="main-container h-full">
                 <div className="banner bg-blend-multiply bg-gray-500 bg-cover w-full" style={{backgroundImage:"url(./images/Banner-wallpeaper.jpg)" }}>
-                    <h1 className='text-white flex justify-center p-52 text-6xl font-extrabold '>Wellcome To Wealthy  Library</h1>
+                    <h1 className='text-white flex justify-center p-52 text-6xl font-extrabold'><span className='underline'> Wellcome To Wealthy  Library </span> </h1>
                 </div>
 
                 <div className="genre bg-gray-200 px-24 py-5 text-left">
@@ -106,6 +117,7 @@ const HomePage = () => {
                         <Link to={"*"} className='absolute right-0 pr-3 top-4 hover:underline font-bold'>See more</Link>
                     <div className=" grid md:grid-flow-col grid-flow-row w-full h-full mb-5 gap-5 pt-5">  
                         {data.slice(0,6).map((item)=>{
+                            let max = 0; 
                             return(
                                 <div key={item.id}>
                         <Link to={"/book/" + item.id}>
@@ -126,6 +138,9 @@ const HomePage = () => {
 
                         );
                         })} 
+                    
+                        
+                    
                             
 
                     </div>
