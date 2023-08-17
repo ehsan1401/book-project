@@ -1,20 +1,13 @@
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import BookPgage from './book';
 import data from '../db/Json/books.json';
-import visit from '../db/Json/visitpage.json'
+import visit from '../db/Json/visitpage.json';
 import '../App.css';
-import { useEffect, useState } from 'react';
+
 
 const HomePage = () => {
 
-   
-
-   
-    
-
-
-    
-
+   const sorted = visit.sort((a, b) => (a.visit < b.visit) ? 1 : -1)
     return ( 
         <div className="homepage h-full">
             <div className="main-container h-full">
@@ -115,29 +108,41 @@ const HomePage = () => {
                 <div className='bg-white relative'>
                         <h2 className='text-left font-bold text-2xl'>Most popular this week</h2>
                         <Link to={"*"} className='absolute right-0 pr-3 top-4 hover:underline font-bold'>See more</Link>
-                    <div className=" grid md:grid-flow-col grid-flow-row w-full h-full mb-5 gap-5 pt-5">  
-                        {data.slice(0,6).map((item)=>{
-                            let max = 0; 
-                            return(
-                                <div key={item.id}>
-                        <Link to={"/book/" + item.id}>
-                            
-                            <div className="popular-card h-auto w-auto relative rounded-sm">
-                                <div className='absolute w-full h-full bg-slate-800 opacity-0 text-white font-semibold text-sm hover:opacity-100 transition duration-500 cursor-pointer rounded-lg px-3 py-5 overflow-y-scroll'>
-                                        <h1 className='title py-1 font-bold'>{item.name}</h1>
-                                        <h1 className='author font-normal'>{item.author}</h1>
+                    <div className=" grid md:grid-flow-col grid-flow-row w-full h-full mb-5 gap-5 pt-5">   
+                        {sorted.slice(0, 6).map((sort_item) =>
+                            data.map(
+                                (item) =>
+                                sort_item.id === item.id ? (
+                                    <div key={item.id}>
+                                    <Link to={"/book/" + item.id}>
+                                        <div className="popular-card h-auto w-auto relative rounded-sm">
+                                        <div className="absolute w-full h-full bg-slate-800 opacity-0 text-white font-semibold text-sm hover:opacity-100 transition duration-500 cursor-pointer rounded-lg px-3 py-5 overflow-y-scroll">
+                                            {console.log(item.name)}
+                                            <h1 className="title py-1 font-bold">
+                                            {item.name}
+                                            </h1>
+                                            <h1 className="author font-normal">
+                                            {item.author}
+                                            </h1>
 
-                                        <p className='p-2 font-light'>{item.info}</p>
-                                </div>
-                                <img src={item.imageURl} alt="book" className="w-96 md:h-80 h-auto rounded-lg"/>
-                            </div>
-                        </Link>
-                    </div>
-                        // tip1 - image address format:
-                        // ./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg
+                                            <p className="p-2 font-light">{item.info}</p>
+                                        </div>
+                                        <img
+                                            src={item.imageURl}
+                                            alt="book"
+                                            className="w-96 md:h-80 h-auto rounded-lg"
+                                        />
+                                        </div>
+                                    </Link>
+                                    </div>
+                                ) : (
+                                    ""
+                                )
+                // tip1 - image address format:
+                // ./images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg
+              )
+            )}
 
-                        );
-                        })} 
                     
                         
                     

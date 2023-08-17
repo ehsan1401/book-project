@@ -88,5 +88,37 @@
         "pages":"375",
         "imageURl":"../images/Books-image/To-Kill-a-Mockingbird/To-Kill-a-Mockingbird.jpg",
         "labels":["#To-Kill-a-Mockingbird","#To-Kill-a-Mockingbird","#To-Kill-a-Mockingbird","#To-Kill-a-Mockingbird"]
+    },
+    {
+        "id":7,
+        "name":"",
+        "info":"",
+        "author":"",
+        "price":"",
+        "priceValue":"$",
+        "publishdate":"",
+        "age":"",
+        "language":["english"],
+        "pages":"375",
+        "imageURl":"../images/Books-image//.jpg",
+        "labels":["#","#","#","#"]
+    },
+    {
+        "id":7,
+        "name":"",
+        "info":"",
+        "author":"",
+        "price":"",
+        "priceValue":"$",
+        "publishdate":"",
+        "age":"",
+        "language":["english"],
+        "pages":"375",
+        "imageURl":"../images/Books-image//.jpg",
+        "labels":["#","#","#","#"]
     }
+    
 ]
+
+
+
