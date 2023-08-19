@@ -106,8 +106,8 @@ const HomePage = () => {
 
             <div className='h-auto w-full p-12'>
                 <div className='bg-white relative'>
-                        <h2 className='text-left font-bold text-2xl'>Most popular this week</h2>
-                        <Link to={"*"} className='absolute right-0 pr-3 top-4 hover:underline font-bold'>See more</Link>
+                        <h2 className='text-left font-bold text-2xl'>Most popular books</h2>
+                        <Link to={"/popular"} className='absolute right-0 pr-3 top-4 hover:underline font-bold'>See more</Link>
                     <div className=" grid md:grid-flow-col grid-flow-row w-full h-full mb-5 gap-5 pt-5">   
                         {sorted.slice(0, 6).map((sort_item) =>
                             data.map(
@@ -130,7 +130,7 @@ const HomePage = () => {
                                         <img
                                             src={item.imageURl}
                                             alt="book"
-                                            className="w-96 md:h-80 h-auto rounded-lg"
+                                            className="md:w-96 w-full md:h-80 h-auto rounded-lg"
                                         />
                                         </div>
                                     </Link>

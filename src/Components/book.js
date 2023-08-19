@@ -20,38 +20,38 @@ const BookPgage = () => {
                     return(
                         <div key={item.id}>
                                 <div className="info-book h-auto w-full rounded-xl md:flex block shadow-2xl bg-white ">
-                                    <div className="image md:w-1/3 w-full p-24 ">
+                                    <div className="image md:w-1/3 w-full p-24 h-auto ">
                                         <img src={item.imageURl} alt="image" className=' h-auto w-full  rounded-2xl hover:shadow-2xl transition duration-500 ' />
                                         <p className='p-5 font-light text-lg'>Written by : <span className='hover:text-red-600 transition duration-400 cursor-pointer '>{item.author}</span></p>
                                     </div>
                                     <div className="content-book md:w-2/3 w-full p-5 h-auto shadow-lg ">
                                         <h1 className='text-3xl font-bold h-auto md:h-1/6   flex items-center justify-center'>{item.name}</h1>
                                         <div className="content-details w-full h-auto md:h-4/6  md:flex block ">
-                                            <div className="content-line3 w-full md:w-1/2 h-full  text-left space-y-4 p-5  ">
+                                            <div className="content-line3 w-full md:w-1/2 h-auto  text-left space-y-4 m-5  ">
                                                 <p className='font-bold text-xl'>Title: <span className='font-medium text-base text-gray-800'>{item.name}</span></p>
                                                 <p className='font-bold text-xl'>Publish date: <span className='font-medium text-base text-gray-800'>{item.publishdate}</span></p>
-                                                <p className='font-bold text-xl'>age rating: <span className='font-medium text-base text-gray-800'>{item.age}</span></p>
-                                                <p className='font-bold text-xl'>author: <span className='font-medium text-base text-gray-800'>{item.author}</span></p>
-                                                <p className='font-bold text-xl'>pages: <span className='font-medium text-base text-gray-800'>{item.pages}</span></p>
+                                                <p className='font-bold text-xl'>Genre: <span className='font-medium text-base text-gray-800'><ul className='pl-2 font-light '>{item.genre.map((gen)=>{return(<li>-{gen}</li>)})}</ul></span></p>
+                                                <p className='font-bold text-xl'>Author: <span className='font-medium text-base text-gray-800'>{item.author}</span></p>
+                                                <p className='font-bold text-xl'>Pages: <span className='font-medium text-base text-gray-800'>{item.pages}</span></p>
                                                 <p className='font-bold text-xl' >Languages: <span className='font-medium text-base text-gray-800'><ul className='pl-2 font-light '>{item.language.map((lan)=>{return(<li>-{lan}</li>)})}</ul></span></p>
-                                                <p className='font-bold text-xl'>age rating: <span className='font-medium text-base text-gray-800'>{item.age}</span></p>
+                                                <p className='font-bold text-xl'>Age rating: <span className='font-medium text-base text-gray-800'>{item.age}</span></p>
 
                                             </div>
                                             
                                             <div className="content-line1 w-full md:w-1/2 h-auto grid grid-flow-row p-5  text-left ">
 
                                                 <div className="text">
-                                                    <p className='font-bold text-xl'> book summary: 
+                                                    <p className='font-bold text-xl'> Book summary: 
                                                         <span className='font-light pl-3 text-gray-800'>{item.info}</span>
                                                     </p>
                                                 </div>
-                                                <div className="visit-side md:p-0  m-5 ">
+                                                <div className="visit-side md:p-0  my-5 ">
                                                     {
                                                     visit.map((vis)=>{
                                                         if(id == vis.id){
                                                             return(
                                                                     <div className="visit" key={vis.id}>
-                                                                        <p className='font-bold text-xl'>visited: <span className='font-medium text-base text-gray-800'>{vis.visit} people</span></p>
+                                                                        <p className='font-bold text-xl'>Visited: <span className='font-medium text-base text-gray-800'>{vis.visit} people</span></p>
                                                                     </div>
                                                                 );
                                                             }
@@ -71,7 +71,7 @@ const BookPgage = () => {
                                             </div>
                                             
                                         </div>
-                                        <div className="another-content block md:w-1/2 w-full md:h-1/6 h-auto text-left "><h1>Labels:</h1>
+                                        <div className="another-content block md:w-1/2 w-full md:h-1/6 h-auto text-left my-3 "><h1>Labels:</h1>
                                         <p>{item.labels.map((label)=>{return(<Link to={"*"} className='p-1 hover:text-blue-600'>{label}</Link>)})}</p></div>
 
                                     </div>

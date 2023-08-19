@@ -9,6 +9,8 @@ import SignIn from './Components/Sign-in-page';
 import LogIn from './Components/Log-in-page';
 import UserDashboadrd from './Components/dashboard';
 import BookPgage from './Components/book';
+import AllBooks from './Components/All-Books';
+import Popular from './Components/popular';
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
           <Route path='/dashboard' element={<UserDashboadrd />} />
           <Route path='/book' element={<BookPgage />} />
           <Route path={'/book/:id'} element={<BookPgage />} />
+          <Route path='/All-books' element={<AllBooks />} />
+          <Route path='/popular' element={<Popular />} />
+
 
 
 

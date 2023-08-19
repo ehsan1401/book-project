@@ -14,7 +14,7 @@ const NavigationBar = () => {
                 <ul className="flex p-2 gap-5 box-border ml-10 ">
                     <Link to={"/"}><li className="w-14 h-14 mx-3"><img src="images/logo.png" alt="logo"/></li></Link>
                     <a href="#search-for-books" className="scroll-smoot p-3 font-bold hover:text-blue-500 transition duration-200"><li> Search </li></a>
-                    <a href="#" className="p-3 font-bold hover:text-blue-500 transition duration-200"><li> All Books </li></a>
+                    <Link to={"/All-books"} className="p-3 font-bold hover:text-blue-500 transition duration-200"><li> All Books </li></Link>
                     <Link to={"/"} className="p-3 font-bold hover:text-blue-500 transition duration-200"><li> Home </li></Link>
                     {/* <a href="#" className="p-3 font-bold hover:text-blue-500 transition duration-200" onClick={()=>setLogin(!login)}><li> change </li></a> */}
                 </ul>
