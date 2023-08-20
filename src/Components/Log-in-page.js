@@ -1,16 +1,32 @@
 import { useRef, useState } from 'react';
 import {Link} from 'react-router-dom'
 import {useNavigate} from "react-router-dom"
+import users from '../db/Json/users.json';
+import UserDashboadrd from '../Components/dashboard';
 
 
 const SignIn = () => {
     const navigate = useNavigate();
+    const [error , setError] =useState("");
     const handleSubmit = (e)=> {
 
         e.preventDefault();
+        let flag = false;
         const data = new FormData(e.target);
         const data_info = Object.fromEntries(data.entries());
-        navigate("/dashboard");
+        users.map((user)=>{
+            if(user.email === data_info.username){
+                if(user.password === data_info.Password){
+
+                    navigate("/dashboard/" + user.userID);
+                }
+            }
+            else{
+                setError("User Not Founded!");
+            }
+
+        });
+
         
     }
 
@@ -22,7 +38,7 @@ const SignIn = () => {
                 <div className="sign-in-text w-full md:w-1/2 bg-white h-full md:p-32 p-5">
                         <div className='w-full h-full'>
                             <h1 className='text-3xl font-bold'>Log in</h1>
-                            <form className=' mt-5 w-full p-5 text-left' onSubmit={handleSubmit}>
+                            <form className=' mt-5 w-full px-5 pt-5 text-left' onSubmit={handleSubmit}>
 
                                 <input type="text" placeholder='Username' name='username' required  className='my-3 p-2 focus:outline-none shadow-md w-full'/><br />
 
@@ -34,7 +50,7 @@ const SignIn = () => {
 
                                 <input type="submit" value={"Log in"} className='my-5 p-2 focus:outline-none shadow-md w-full bg-purple-900 text-white font-semibold hover:bg-indigo-600 transition duration-500 rounded-2xl '/> <br />
                             </form>
-                            <div className="error text-red-700 font-light hidden" id="error"><p></p></div>
+                            <div className="error text-red-500 font-light" id="error"><p>{error}</p></div>
                             
                         </div>
                     </div>  
