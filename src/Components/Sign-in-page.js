@@ -1,29 +1,41 @@
 import { useRef, useState } from 'react';
 import {Link} from 'react-router-dom'
 import {useNavigate} from "react-router-dom"
+import users from '../db/Json/users.json';
 
 
 const SignIn = () => {
 
     
     const navigate = useNavigate();
+    const [error , setError] = useState("");
 
     const handleSubmit= (e)=>{  
         e.preventDefault();
-        const repeateError = document.getElementById("repeate-error");
-
-
         const data = new FormData(e.target);
         const data_info = Object.fromEntries(data.entries());
-
-
-
+        let pass = true;
         if(data_info.Password === data_info.repassword){
-            //login side
-            navigate("/Login");
-            // alert("Sign in successful");
+            
+            users.map((user)=>{
+
+                if(user.email === data_info.email){
+                    pass = false;
+                }
+
+            })
+
+            if(pass == false){
+                setError("This email Already used!");
+            }else{
+                navigate("/Login");
+                // add information to database
+            }
+
+            
+            
         }else{
-            repeateError.style.display="block";
+            setError("your password and repeate password must be same!");
         }
 
         
@@ -57,8 +69,6 @@ const SignIn = () => {
 
                                 <input type="email" placeholder='Email' name='email' required  className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Username' name='username' required  className='my-2 p-2 focus:outline-none shadow-md w-full'/><br />
-
                                 <input type="text" placeholder='Password' name='Password' required className='my-2 p-2 focus:outline-none  shadow-md w-full'/><br />
 
                                 <input type="text" placeholder='Repeate Password' name='repassword' required  className='my-2 p-2 focus:outline-none w-full shadow-md '/><br />
@@ -66,7 +76,7 @@ const SignIn = () => {
                                 <input type="submit" value={"Sign in"} className='my-2 p-2 focus:outline-none shadow-md w-full bg-purple-900 text-white font-semibold hover:bg-indigo-600 transition duration-500 rounded-2xl '/> <br />
 
                             </form>
-                            <div className="error text-red-700 font-light hidden" id="repeate-error"><p>your password and repeate password must be same!</p></div>
+                            <div className="error text-red-700 font-light " id="repeate-error"><p>{error}</p></div>
                             
                         </div>
                     </div>                    

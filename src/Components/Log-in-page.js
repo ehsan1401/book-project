@@ -5,7 +5,7 @@ import users from '../db/Json/users.json';
 import UserDashboadrd from '../Components/dashboard';
 
 
-const SignIn = () => {
+const LogIn = () => {
     const navigate = useNavigate();
     const [error , setError] =useState("");
     const handleSubmit = (e)=> {
@@ -15,11 +15,9 @@ const SignIn = () => {
         const data = new FormData(e.target);
         const data_info = Object.fromEntries(data.entries());
         users.map((user)=>{
-            if(user.email === data_info.username){
-                if(user.password === data_info.Password){
-
-                    navigate("/dashboard/" + user.userID);
-                }
+            if(user.email === data_info.username && user.password === data_info.Password){
+                navigate("/dashboard/" + user.userID);
+                
             }
             else{
                 setError("User Not Founded!");
@@ -76,4 +74,4 @@ const SignIn = () => {
      );
 }
  
-export default SignIn;
+export default LogIn;
