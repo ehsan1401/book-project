@@ -3,6 +3,7 @@ import BookPgage from './book';
 import data from '../db/Json/books.json';
 import visit from '../db/Json/visitpage.json';
 import '../App.css';
+import Autors from '../db/Json/authors.json';
 
 
 const HomePage = () => {
@@ -100,10 +101,6 @@ const HomePage = () => {
 
             </div>
 
-
-
-
-
             <div className='h-auto w-full p-12'>
                 <div className='bg-white relative'>
                         <h2 className='text-left font-bold text-2xl'>Most popular books</h2>
@@ -148,6 +145,30 @@ const HomePage = () => {
                             
 
                     </div>
+                </div>
+            </div>
+
+            <div className="authors w-full h-auto bg-gray-200 relative">
+                <h1 className='block text-left pl-14 pt-10 font-bold text-2xl flex-none'>Famous writers</h1>
+                <Link to={"/allauthor"} className='mr-10   text-base hover:underline absolute right-0'>see more</Link>
+                <div className='flex flex-col mt-2 md:flex-col lg:flex-row flex-wrap p-10 gap-5'>
+                {
+                    Autors.slice(0, 3).map((aut)=>{
+                        return(
+                            <Link to={"/author/" + aut.authorId} className='flex flex-1 hover:shadow-2xl transition duration-200 '>
+                                <div className="autor bg-white h-auto border-2 border-black border-dashed flex flex-1 flex-row p-5 gap-3 rounded-2xl" key={aut.authorId}>
+                                    <div className="autor-image h-auto w-1/2 flex flex-col items-center justify-center">
+                                        <img src={aut.imageURL} alt={aut.name} className='rounded-full h-40 w-40 my-5 shadow-2xl' />
+                                        <h1 className='text-lg font-serif'>{aut.name}</h1>
+                                    </div>
+                                    <div className="author-info h-full w-1/2 flex items-center">
+                                        <p className='font-light'>{aut.shortInfo}</p>
+                                    </div>
+                                </div>
+                            </Link>
+                        )
+                    })
+                }
                 </div>
             </div>
 

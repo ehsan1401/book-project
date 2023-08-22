@@ -40,7 +40,7 @@ const LogIn = () => {
 
                                 <input type="text" placeholder='Username' name='username' required  className='my-3 p-2 focus:outline-none shadow-md w-full'/><br />
 
-                                <input type="text" placeholder='Password' name='Password' required className='my-3 p-2 focus:outline-none  shadow-md w-full'/><br />
+                                <input type="password" placeholder='Password' name='Password' required className='my-3 p-2 focus:outline-none  shadow-md w-full'/><br />
                                
                                 <input type="checkbox" name='remamber' className='font-thin' />
                                 <label htmlFor="remamber" className='font-thin'> remamber me on this device.</label>

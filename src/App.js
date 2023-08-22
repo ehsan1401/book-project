@@ -11,6 +11,11 @@ import UserDashboadrd from './Components/dashboard';
 import BookPgage from './Components/book';
 import AllBooks from './Components/All-Books';
 import Popular from './Components/popular';
+import Authors from './Components/allAouthors';
+import Author from './Components/author';
+import AllAuthors from './Components/allAouthors';
+
+
 
 function App() {
   return (
@@ -28,6 +33,10 @@ function App() {
           <Route path={'/book/:id'} element={<BookPgage />} />
           <Route path='/All-books' element={<AllBooks />} />
           <Route path='/popular' element={<Popular />} />
+          <Route path={'/author/:name'} element={<Author />} />
+          <Route path='/allauthor' element={<AllAuthors />} />
+
+
 
 
 

@@ -20,29 +20,29 @@ const Footer = () => {
                 </a>
             </ul>
             <ul className="quick-access h-auto md:flex justify-center gap-8 w-full px-10 text-gray-300 my-3">
-                <Link to={"/aboutUs"}  className="p-1 hover:text-gray-400" ><li>About</li></Link>
+                <Link to={"/"}  className="p-1 hover:text-gray-400" ><li>Home</li></Link>
                 
-                <a href="#" className="p-1 hover:text-gray-400">
-                    <li>Need Help?</li>
-                </a>                
-                <a href="#" className="p-1 hover:text-gray-400">
-                    <li>Content Guide</li>
-                </a>                
-                <a href="#" className=" p-1 hover:text-gray-400">
-                    <li>My Store</li>
-                </a>                
-                <a href="#" className="p-1 hover:text-gray-400">
-                    <li>Privacy</li>
-                </a>                
-                <a href="#" className="p-1 hover:text-gray-400">
+                <Link to={"/All-books"} className="p-1 hover:text-gray-400">
+                    <li>All Books</li>
+                </Link>                
+                <Link to={"/popular"} className="p-1 hover:text-gray-400">
+                    <li>Popular Books</li>
+                </Link>                
+                <Link to={"/allauthor"} className=" p-1 hover:text-gray-400">
+                    <li>Authors</li>
+                </Link>                
+                <Link to={""} className="p-1 hover:text-gray-400">
+                    <li>Genre</li>
+                </Link>                
+                <Link to={"/Login"} className="p-1 hover:text-gray-400">
+                    <li>Account</li>
+                </Link>
+                <Link to={""} className="p-1 hover:text-gray-400">
                     <li>Terms of Use</li>
-                </a>                
-                <a href="#" className="p-1 hover:text-gray-400">
-                    <li>Advance</li>
-                </a>                
-                <a href="#" className="p-1 hover:text-gray-400">
-                    <li>Jobs</li>
-                </a>
+                </Link> 
+                <Link to={"/aboutUs"} className="p-1 hover:text-gray-400">
+                    <li>About Us</li>
+                </Link> 
             </ul>
             <ul className="pb-5">
                 <p>©2023 EhsanJangjo</p>

@@ -1,0 +1,190 @@
+[
+    {
+        "name":"Harper Lee",
+        "authorId":1,
+        "Books":["To Kill a Mockingbird","Go Set a Watchman"],
+        "shortInfo":"Nelle Harper Lee was an American novelist who wrote the 1960 novel To Kill a Mockingbird that won the 1961 Pulitzer Prize and became a classic of modern American literature. She assisted her close friend Truman Capote in his research for the book In Cold Blood (1966). Her second novel, Go Set a Watchman, has been confirmed to be an earlier draft of Mockingbird but was published in July 2015 as a sequel.",
+        "fullInfo":"Nelle Harper Lee (April 28, 1926 – February 19, 2016) was an American novelist who wrote the 1960 novel To Kill a Mockingbird that won the 1961 Pulitzer Prize and became a classic of modern American literature. She assisted her close friend Truman Capote in his research for the book In Cold Blood (1966).[1] Her second novel, Go Set a Watchman, has been confirmed to be an earlier draft of Mockingbird but was published.The plot and characters of To Kill a Mockingbird are loosely based on Lee's observations of her family and neighbors in Monroeville, Alabama, as well as a childhood event that occurred near her hometown in 1936. The novel deals with racist attitudes, the irrationality of adult attitudes towards race and class in the Deep South of the 1930s, as depicted through the eyes of two children. Lee received numerous accolades and honorary degrees, including the Presidential Medal of Freedom in 2007, which was awarded for her contribution to literature.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Harper_Lee",
+        "birthday":"April 28, 1926",
+        "died":"February 19, 2016",
+        "signatureURL":"../images/Authors/Harper-Lee/Harper_Lee_signature.png",
+        "imageURL":"../images/Authors/Harper-Lee/Harper-Lee.jpg"
+    },{
+        "name":"Ai Weiwei",
+        "authorId":2,
+        "Books":["1000 Years of Joys and Sorrows"],
+        "shortInfo":"Ai Weiwei is a Chinese contemporary artist, documentarian, and activist. Ai grew up in the far northwest of China, where he lived under harsh conditions due to his father's exile. As an activist, he has been openly critical of the Chinese Government's stance on democracy and human rights.",
+        "fullInfo":"Ai Weiwei (Chinese: 艾未未; pinyin: Ài Wèiwèi; born 28 August 1957) is a Chinese contemporary artist, documentarian, and activist. Ai grew up in the far northwest of China, where he lived under harsh conditions due to his father's exile. As an activist, he has been openly critical of the Chinese Government's stance on democracy and human rights. He investigated government corruption and cover-ups, in particular the Sichuan schools corruption scandal following the collapse of 'tofu-dreg schools' in the 2008 Sichuan earthquake. In 2011, Ai Weiwei was arrested at Beijing Capital International Airport on 3 April, for 'economic crimes'. He was detained for 81 days without charge. Ai Weiwei emerged as a vital instigator in Chinese cultural development, an architect of Chinese modernism, and one of the nation's most vocal political commentators.Ai Weiwei encapsulates political conviction and his personal poetry in his many sculptures, photographs, and public works. In doing this, he makes use of Chinese art forms to display Chinese political and social issues.After being allowed to leave China in 2015, he has lived in Berlin, Germany, in Cambridge, UK, with his family, and in Portugal.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Ai_Weiwei",
+        "birthday":"28 August 1957",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Ai-Weiwei/Ai-Weiwei.jpg"
+    },{
+        "name":"Akwaeke Emezi",
+        "authorId":3,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Akwaeke-Emezi/Akwaeke-Emezi.jpg"
+    },{
+        "name":"Amanda Gorman",
+        "authorId":4,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Amanda-Gorman/Amanda-Gorman.jpg"
+    },{
+        "name":"Elizabeth Hinton",
+        "authorId":5,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Elizabeth-Hinton/Elizabeth-Hinton.jpg"
+    },{
+        "name":"George Orwell",
+        "authorId":6,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/George-Orwell/George-Orwell.jpg"
+    },{
+        "name":"Jane Austen",
+        "authorId":7,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Jane-Austen/Jane-Austen.jpg"
+    },{
+        "name":"John Green",
+        "authorId":8,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/John-Green/John-Green.jpg"
+    },{
+        "name":"Markus Zusak",
+        "authorId":9,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Markus-Zusak/Markus-Zusak.jpg"
+    },{
+        "name":"Megan Nolan",
+        "authorId":10,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Megan-Nolan/Megan-Nolan.jpg"
+    },{
+        "name":"Michelle Zauner",
+        "authorId":11,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Michelle-Zauner/Michelle-Zauner.jpg"
+    },{
+        "name":"Nadia Owusu",
+        "authorId":12,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Nadia-Owusu/Nadia-Owusu.jpg"
+    },{
+        "name":"Nicole Eustace",
+        "authorId":13,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Nicole-Eustace/Nicole-Eustace.jpg"
+    },{
+        "name":"Ruth Ozeki",
+        "authorId":14,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Ruth-Ozeki/Ruth-Ozeki.jpg"
+    },{
+        "name":"Sally Rooney",
+        "authorId":15,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Sally-Rooney/Sally-Rooney.jpg"
+    },{
+        "name":"Suzanne Collins",
+        "authorId":16,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Suzanne-Collins/Suzanne-Collins.jpg"
+    },{
+        "name":"Walter Isaacson",
+        "authorId":17,
+        "Books":["Freshwater","Dear Senthuran","Pet"],
+        "shortInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "fullInfo":"Akwaeke Emezi is a Nigerian fiction writer and video artist, best known for their novels Freshwater, Pet, and their New York Times bestselling novel The Death of Vivek Oji. Emezi is a generalist who writes speculative fiction, romance, memoir and poetry for both young adults and adults with mostly LGBT themes. Their work has earned them several awards and nominations including the Otherwise Award and Commonwealth Short Story Prize. In 2021, Time featured them as a Next Generation Leader.",
+        "infoSorce":"https://en.wikipedia.org/wiki/Akwaeke_Emezi",
+        "birthday":"June 6, 1987",
+        "died":"-",
+        "signatureURL":"-",
+        "imageURL":"../images/Authors/Walter-Isaacson/Walter-Isaacson.jpg"
+    }
+]

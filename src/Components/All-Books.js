@@ -12,7 +12,7 @@ const AllBooks = () => {
                             <img src={item.imageURl} alt={item.name} className='h-full rounded-lg ' />
                             <div className='absolute  p-10'>
                                 <h1 className='font-semibold text-lg'>{item.name}</h1>
-                                <h2 className='font-light mb-5'>{item.author}</h2>
+                                <Link to={"/"} className='font-light mb-5 hover:text-red-600 transition duration-300'>{item.author}</Link>
                                 <p className='font-mono'>{item.info}</p>
                             </div>
                         </div>
