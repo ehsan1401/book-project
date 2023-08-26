@@ -259,6 +259,20 @@
         "pages":"375",
         "imageURl":"../images/Books-image/Dear-Senthuran/Dear-Senthuran.jpg",
         "labels":["#Dear-Senthuran","#Dear-Senthuran","#Dear-Senthuran","#Dear-Senthuran"]
+    },    {
+        "id":18,
+        "name":"Dear Senthuran",
+        "info":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur enim unde, molestias officiis quisquam aperiam iure vitae velit! Odit est nam laborum voluptatum odio perspiciatis placeat aperiam nesciunt sint similique.",
+        "author":"Ai Weiwei",
+        "price":"15",
+        "priceValue":"$",
+        "publishdate":"",
+        "age":"+10",
+        "genre":[""],
+        "language":["english"],
+        "pages":"375",
+        "imageURl":"../images/Books-image/Dear-Senthuran/Dear-Senthuran.jpg",
+        "labels":["#Dear-Senthuran","#Dear-Senthuran","#Dear-Senthuran","#Dear-Senthuran"]
     }
     
 ]

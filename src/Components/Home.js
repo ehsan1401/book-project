@@ -155,7 +155,7 @@ const HomePage = () => {
                 {
                     Autors.slice(0, 3).map((aut)=>{
                         return(
-                            <Link to={"/author/" + aut.authorId} className='flex flex-1 hover:shadow-2xl transition duration-200 '>
+                            <Link to={"/author/" + aut.name} className='flex flex-1 hover:shadow-2xl transition duration-200 '>
                                 <div className="autor bg-white h-auto border-2 border-black border-dashed flex flex-1 flex-row p-5 gap-3 rounded-2xl" key={aut.authorId}>
                                     <div className="autor-image h-auto w-1/2 flex flex-col items-center justify-center">
                                         <img src={aut.imageURL} alt={aut.name} className='rounded-full h-40 w-40 my-5 shadow-2xl' />

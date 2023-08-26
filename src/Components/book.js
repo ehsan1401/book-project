@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import data from '../db/Json/books.json';
-import visit from'../db/Json/visitpage.json'
+import visit from'../db/Json/visitpage.json';
+import Author from'../db/Json/authors.json';
+
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -22,7 +24,7 @@ const BookPgage = () => {
                                 <div className="info-book h-auto w-full rounded-xl md:flex block shadow-2xl bg-white ">
                                     <div className="image md:w-1/3 w-full p-24 h-auto ">
                                         <img src={item.imageURl} alt="image" className=' h-auto w-full  rounded-2xl hover:shadow-2xl transition duration-500 ' />
-                                        <p className='p-5 font-light text-lg'>Written by : <span className='hover:text-red-600 transition duration-400 cursor-pointer '>{item.author}</span></p>
+                                        <p className='p-5 font-light text-lg'>Written by : <Link to={"/author/" + item.author} className='hover:text-red-600 transition duration-400 '>{item.author}</Link></p>
                                     </div>
                                     <div className="content-book md:w-2/3 w-full p-5 h-auto shadow-lg ">
                                         <h1 className='text-3xl font-bold h-auto md:h-1/6   flex items-center justify-center'>{item.name}</h1>
