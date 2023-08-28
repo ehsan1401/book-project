@@ -18,7 +18,6 @@ const pop = () => {
                                     <Link to={"/book/" + item.id}>
                                         <div className="popular-card h-auto w-auto relative rounded-sm">
                                         <div className="absolute w-full h-full bg-slate-800 opacity-0 text-white font-semibold text-sm hover:opacity-100 transition duration-500 cursor-pointer rounded-lg px-3 py-5 overflow-y-scroll">
-                                            {console.log(item.name)}
                                             <h1 className="title py-1 font-bold">
                                             {item.name}
                                             </h1>

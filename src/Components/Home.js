@@ -22,41 +22,41 @@ const HomePage = () => {
                     <div className="genre-items grid grid-flow-col w-full h-auto mb-5 gap-5">
 
 
-                        <div className="cart h-50 w-auto relative rounded-sm">
+                        <Link to={"/genre/" + 5} className="cart h-50 w-auto relative rounded-sm">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Fantasy</p>
                             <img src="./images/Book-genres/Fantasy.jpg" alt="Fantasy" className="w-auto h-full rounded-lg"/>
-                        </div>
-                        <div className="cart h-50 w-auto relative rounded-sm hidden sm:flex">
+                        </Link>
+                        <Link to={"/genre/" + 8} className="cart h-50 w-auto relative rounded-sm hidden sm:flex">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Science Fiction</p>
                             <img src="./images/Book-genres/Science-Fiction.jpg" alt="Science Fiction" className="w-auto h-full rounded-lg"/>
-                        </div>                        
-                        <div className="cart h-50 w-auto relative rounded-sm ">
+                        </Link>                        
+                        <Link to={"/genre/" + 9} className="cart h-50 w-auto relative rounded-sm ">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Dystopian </p>
                             <img src="./images/Book-genres/Dystopian.jpg" alt="Dystopian" className="w-auto h-full rounded-lg"/>
-                        </div>                        
-                        <div className="cart h-50 w-auto relative rounded-sm hidden sm:flex">
+                        </Link>                        
+                        <Link to={"/genre/" + 10} className="cart h-50 w-auto relative rounded-sm hidden sm:flex">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Adventure </p>
                             <img src="./images/Book-genres/Adventure.png" alt="Adventure" className="w-auto h-full rounded-lg"/>
-                        </div>                        
-                        <div className="cart h-50 w-auto relative rounded-sm hidden md:flex">
+                        </Link>                        
+                        <Link to={"/genre/" + 11} className="cart h-50 w-auto relative rounded-sm hidden md:flex">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Romance </p>
                             <img src="./images/Book-genres/Romance.png" alt="Romance" className="w-auto h-full rounded-lg"/>
-                        </div>                        
-                        <div className="cart h-50 w-auto relative rounded-sm hidden lg:flex">
+                        </Link>                        
+                        <Link to={"/genre/" + 12} className="cart h-50 w-auto relative rounded-sm hidden lg:flex">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Horror </p>
                             <img src="./images/Book-genres/Horror.jpg" alt="Horror" className="w-auto h-full rounded-lg"/>
-                        </div>                        
-                        <div className="cart h-50 w-auto relative rounded-sm hidden lg:flex">
+                        </Link>                        
+                        <Link to={"/genre/" + 13} className="cart h-50 w-auto relative rounded-sm hidden lg:flex">
                             {/* <h1 className=' text-center h-50'>Fantasy</h1> */}
                             <p className='absolute w-full h-full flex justify-center items-center bg-slate-800 bg-opacity-80 text-white font-semibold text-xl hover:opacity-0 transition duration-500 cursor-pointer rounded-lg '>Thriller </p>
                             <img src="./images/Book-genres/Thriller.jpg" alt="Thriller" className="w-auto h-full rounded-lg"/>
-                        </div>
+                        </Link>
 
                     </div>
 

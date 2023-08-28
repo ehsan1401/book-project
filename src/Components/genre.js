@@ -4,9 +4,9 @@ import GenreData from '../db/Json/genres.json';
 
 const GenrePage = () => {
     return ( 
-        <div className="genre bg-orange-200">
-            <h1 className='text-left font-extrabold text-4xl ml-10 pt-5 text-gray-800'>Genres</h1>
-            <div className="genre-container p-5 h-full grid grid-flow-row grid-cols-4">
+        <div className="genre bg-gray-50">
+            <h1 className='text-left font-bold text-4xl ml-10 pt-5 text-gray-800'>Genres</h1>
+            <div className="genre-container p-5 h-full grid grid-flow-row lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
                 {
                     GenreData.map((gen)=>{
                         return(
