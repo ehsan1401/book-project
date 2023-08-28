@@ -11,9 +11,11 @@ import UserDashboadrd from './Components/dashboard';
 import BookPgage from './Components/book';
 import AllBooks from './Components/All-Books';
 import Popular from './Components/popular';
-import Authors from './Components/allAouthors';
 import Author from './Components/author';
 import AllAuthors from './Components/allAouthors';
+import GenrePage from './Components/genre';
+import GenreItem from './Components/genrePage';
+
 
 
 
@@ -35,11 +37,8 @@ function App() {
           <Route path='/popular' element={<Popular />} />
           <Route path={'/author/:name'} element={<Author />} />
           <Route path='/allauthor' element={<AllAuthors />} />
-
-
-
-
-
+          <Route path='/genres' element={<GenrePage />} />
+          <Route path={'/genre/:id'} element={<GenreItem />} />
 
           <Route path='*' element={<NotFounded />} />
         </Routes>

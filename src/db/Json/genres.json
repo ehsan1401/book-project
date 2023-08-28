@@ -1,0 +1,103 @@
+[
+    {
+        "genreId": 1 ,
+        "genre":"Action",
+        "genreInfo":"The first genre in our list of book genres is action & adventure fiction. Action & adventure books contain a risk-filled journey and a thrilling series of action sequences. The threat of danger is ever-present, and the plot moves quickly. "
+    },
+    {
+        "genreId": 2 ,
+        "genre":"Children's fiction",
+        "genreInfo":"The first genre in our list of book Children's fiction includes made-up stories that are written specifically for children. They cover themes and language that are age-appropriate and can contain many different book genres and subgenres within the pages. "
+    },
+    {
+        "genreId": 3 ,
+        "genre":"Classic fiction",
+        "genreInfo":"Classics are fictional books that have stood the test of time and are considered exceptional works of literature. Classic fiction is often used in academic discussions. "
+    },
+    {
+        "genreId": 4 ,
+        "genre":"Contemporary fiction",
+        "genreInfo":"Contemporary fiction stories are set in modern times and don't contain any elements of fantasy (see below). These stories give the reader a window into a specific human experience. Some may be written for entertainment, and others may be written as political or social statements."
+    },
+    {
+        "genreId": 5 ,
+        "genre":"Fantasy",
+        "genreInfo":"Fantasy is undoubtedly one of the most popular genres in our list of book genres. Books in the fantasy genre include supernatural or magical elements. These can be set on Earth, or in completely made-up worlds. A fantasy book series is not bound by the laws of science, physics, or even reality."
+    },
+    {
+        "genreId": 6 ,
+        "genre":"Dark fantasy",
+        "genreInfo":"Dark fantasy books are written in a tone that evokes a feeling of dread. They feature morally gray characters and often include elements of horror. Sometimes the story is told from a villain or monster's point of view. In dark fantasy, the events that might shock in an actual horror book are portrayed as normal. "
+    },
+    {
+        "genreId": 7 ,
+        "genre":"Fairy tales",
+        "genreInfo":"No list of book genres would be complete without fairy tales. The stories of Hans Christian Anderson and the Grimm Brothers are what we most associate with “classic” fairy tales. They rely on themes of good vs. evil, contain a moral lesson (often for children), and usually end with a “happily ever after.” "
+    },
+    {
+        "genreId": 8 ,
+        "genre":"Science Fiction",
+        "genreInfo":"Science and technology books are written about the sciences either to help readers have a greater understanding of them or to teach about the evolution of technology."
+    },
+    {
+        "genreId": 9 ,
+        "genre":"Dystopian",
+        "genreInfo":"Dystopia is a form of literature that explores social and political structures. It is a creation of a nightmare world - unlike its opposite, Utopia, which is an ideal world.Dystopia is often characterized by an authoritarian or totalitarian form of government. It often features multiple kinds of repressive social control systems, a lack or total absence of individual freedoms and expressions, and a state of constant warfare or violence."
+    },
+    {
+        "genreId": 10 ,
+        "genre":"Adventure",
+        "genreInfo":"Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quests, voyages of discovery, and other journeys. They might involve things like pirates and buried treasure, the search for a secret place or object, or a quest or expedition whose success is crucial for personal or societal reasons."
+    },
+    {
+        "genreId": 11 ,
+        "genre":"Romance",
+        "genreInfo":"Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quests, voyages of discovery, and other journeys. They might involve things like pirates and buried treasure, the search for a secret place or object, or a quest or expedition whose success is crucial for personal or societal reasons."
+    },
+    {
+        "genreId": 12 ,
+        "genre":"Horror",
+        "genreInfo":"Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quests, voyages of discovery, and other journeys. They might involve things like pirates and buried treasure, the search for a secret place or object, or a quest or expedition whose success is crucial for personal or societal reasons."
+    },
+    {
+        "genreId": 13 ,
+        "genre":"Thriller",
+        "genreInfo":"Adventure fiction is a genre of literature that features stories of adventure, such as world travel, difficult quests, voyages of discovery, and other journeys. They might involve things like pirates and buried treasure, the search for a secret place or object, or a quest or expedition whose success is crucial for personal or societal reasons."
+    },
+    {
+        "genreId": 14 ,
+        "genre":"Political satire",
+        "genreInfo":"A story that uses irony and sarcasm to expose human folly and vice in the political arena. Political satires often critique the status quo and, in doing so, offer alternatives and possibilities for improvements. Solutions are not a requirement of political satire."
+    },
+    {
+        "genreId": 15 ,
+        "genre":"Southern Gothic",
+        "genreInfo":"Southern Gothic is an artistic subgenre of fiction, country music, film and television that are heavily influenced by Gothic elements and the American South. Common themes of Southern Gothic include storytelling of deeply flawed, disturbing or eccentric characters who may be involved in hoodoo, decayed or derelict settings, grotesque situations, and other sinister events relating to or stemming from poverty, alienation, crime, or violence."
+    },
+    {
+        "genreId": 16 ,
+        "genre":"Novel",
+        "genreInfo":"novel, an invented prose narrative of considerable length and a certain complexity that deals imaginatively with human experience, usually through a connected sequence of events involving a group of persons in a specific setting. Within its broad framework, the genre of the novel has encompassed an extensive range of types and styles: picaresque, epistolary, Gothic, romantic, realist, historical—to name only some of the more important ones."
+    },
+    {
+        "genreId": 17 ,
+        "genre":"Historical Fiction",
+        "genreInfo":"Historical fiction presents a story set in the past, often during a significant time period. In historical fiction, the time period is an important part of the setting and often of the story itself.Historical fiction may include fictional characters, well-known historical figures or a mixture of the two. Authors of historical fiction usually pay close attention to the details of their stories (settings, clothing, dialogue, etc.) to ensure that they fit the time periods in which the narratives take place."
+    },
+    {
+        "genreId": 18 ,
+        "genre":"Young adult",
+        "genreInfo":"Young adult fiction (YA) is fiction written for readers from 12 to 18 years of age. The term YA was first used regularly in the 1960s in the United States. The YA category includes most of the genres found in adult fiction, with themes that include friendship, sexuality, drugs and alcohol, and sexual and gender identity. Stories that focus on the challenges of youth may be categorized as problem novels or coming-of-age novels. The boundary between children's and adult literature is flexible, subject to moral and political ideology, and in some cases meaningless."
+    },
+    {
+        "genreId": 19 ,
+        "genre":"realistic fiction",
+        "genreInfo":"Books in the realistic fiction genre are made up of stories that could really happen to real people and animals. The realistic genre plots involve things that could have taken place in real life, with the character reacting in the same manner as real people might react."
+    },
+    {
+        "genreId": 20 ,
+        "genre":"memoir",
+        "genreInfo":"A memoir is any nonfiction narrative writing based on the author's personal memories.The assertions made in the work are thus understood to be factual. While memoir has historically been defined as a subcategory of biography or autobiography since the late 20th century, the genre is differentiated in form, presenting a narrowed focus, usually a particular time phase in someone's life or career. A biography or autobiography tells the story 'of a life', while a memoir often tells the story of a particular career, event, or time, such as touchstone moments and turning points in the author's life. The author of a memoir may be referred to as a memoirist or a memorialist."
+    }
+
+]

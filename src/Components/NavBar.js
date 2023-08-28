@@ -6,7 +6,7 @@ const NavigationBar = () => {
     const [login,setLogin] = useState(false);
     return ( 
         <div className="navigationbar">
-            <div className="content bg-blue-950 text-white">
+            <div className="content bg-blue-900 text-white">
                 { login && <Link to={'/dashboard'} className="float-right bg-blue-700 font-bold px-4 py-2 mx-5 my-4 rounded-md hover:bg-blue-100 hover:text-black transition duration-300" title='welcome to your account'>User</Link>}
 
                 { !login && <Link to={'/SignIn'} className="float-right bg-blue-700 font-bold px-4 py-2 mx-2 my-4 rounded-md hover:bg-blue-100 hover:text-black transition duration-300" title="Sign in to read more" >Sign in</Link>}

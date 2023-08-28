@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 const Footer = () => {
     return ( 
-        <div className="footer text-center bg-gray-900 text-white box-border w-full">
+        <div className="footer text-center bg-blue-900 text-white box-border w-full">
             <ul className="icons w-60 h-auto flex m-auto gap-2 pt-8">
                 <a href="" className="w-52 rounded-full">
                     <li><img src="images\icons\facebook.jpg" alt="faceBook" className=" rounded-full p-1" /></li>
@@ -31,8 +31,8 @@ const Footer = () => {
                 <Link to={"/allauthor"} className=" p-1 hover:text-gray-400">
                     <li>Authors</li>
                 </Link>                
-                <Link to={""} className="p-1 hover:text-gray-400">
-                    <li>Genre</li>
+                <Link to={"/genres"} className="p-1 hover:text-gray-400">
+                    <li>Genres</li>
                 </Link>                
                 <Link to={"/Login"} className="p-1 hover:text-gray-400">
                     <li>Account</li>

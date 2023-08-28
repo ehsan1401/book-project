@@ -109,7 +109,6 @@ const UserDashboadrd = () => {
                                                 user.IDauthorBookmark.map((autId)=>
                                                     Authors.map((aut)=>{
                                                         if(aut.authorId === autId){
-                                                            {console.log(aut.name)}
                                                             return(
                                                             <Link to={"/author/" + aut.authorId}>
                                                                 <div className="autor bg-white border-black border-dashed border-2 h-auto w-full rounded-lg my-2 overflow-hidden transition-all duration-500 hover:shadow-[inset_0_-2px_30px_rgba(0,0,0,0.3)] font-bold text-gray-700 text-2xl p-6 flex">
