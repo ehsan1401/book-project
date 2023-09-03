@@ -15,6 +15,7 @@ import Author from './Components/author';
 import AllAuthors from './Components/allAouthors';
 import GenrePage from './Components/genre';
 import GenreItem from './Components/genrePage';
+import Message from './Components/message';
 
 
 
@@ -39,6 +40,8 @@ function App() {
           <Route path='/allauthor' element={<AllAuthors />} />
           <Route path='/genres' element={<GenrePage />} />
           <Route path={'/genre/:id'} element={<GenreItem />} />
+          <Route path={'/message/:id'} element={<Message />} />
+
 
           <Route path='*' element={<NotFounded />} />
         </Routes>

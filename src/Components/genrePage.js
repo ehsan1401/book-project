@@ -13,7 +13,7 @@ const GenrePage = () => {
           ? (
             
             <div className="sm:flex grid gap-3 p-5 h-full">
-              <div className="grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  w-full gap-5 p-10 bg-gray-100 rounded-lg h-full">
+              <div className="grid grid-flow-row grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full gap-5 p-10 bg-gray-100 rounded-lg min-h-screen">
                 {
                             Books.map((book) =>
                             book.genre.map((gb) =>
